@@ -138,6 +138,14 @@ https://groups.google.com/d/forum/msbuildtasks
     <td>Run NUnit3.x on a group of assemblies.</td>
   </tr>
   <tr>
+    <td><a href="Documentation/TaskDocs.md#PaketRestore">PaketRestore</a></td>
+    <td>Restore packes installed with Paket.</td>
+  </tr>
+  <tr>
+    <td><a href="Documentation/TaskDocs.md#PaketBootstrap">PaketBootstrap</a></td>
+    <td>Install and updates paket.exe</td>
+  </tr>
+  <tr>
     <td><a href="Documentation/TaskDocs.md#RegexMatch">RegexMatch</a></td>
     <td>Task to filter an Input list with a Regex expression.
             Output list contains items from Input list that matched given expression</td>

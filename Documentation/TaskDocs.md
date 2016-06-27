@@ -996,7 +996,78 @@ The developer of this task did not add an example in the summary documentation.
         
         
         
+## <a id="PaketBootstrap">PaketBootstrap</a>
+### Description
+Install and updates paket.exe. See https://fsprojects.github.io/Paket/index.html and
+https://fsprojects.github.io/Paket/bootstrapper.html
+### Example
+Execute paket.bootstrapper.exe. This assumes paket.bootstrapper.exe to be found in the .paket directory.
+
+    <Target Name="Bootstrap>
+      <PaketBootstrap />
+    </Target>
+
+
+* * *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
+## <a id="PaketRestore">PaketRestore</a>
+### Description
+Restore packes installed with Paket. See https://fsprojects.github.io/Paket/index.html and
+https://fsprojects.github.io/Paket/paket-restore.html
+### Example
+Execute paket restore from build script. This assumes paket.exe to be found in .paket\paket.exe
+Set ToolPath to override this.
+
+  <Target Name="Restore>
+    <PaketRestore Verbose="True" TouchAffectedRefs="True" />
+  </Target>
+
+
+
+* * *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## <a id="RegexCompiler">RegexCompiler</a>
 ### Description
 Compiles regular expressions and saves them to disk in an assembly.
