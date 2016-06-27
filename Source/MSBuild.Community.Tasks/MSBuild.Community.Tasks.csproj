@@ -134,6 +134,7 @@
     <Compile Include="NuGet\NuGetRestore.cs" />
     <Compile Include="NuGet\NuGetUpdate.cs" />
     <Compile Include="NUnit3.cs" />
+    <Compile Include="Paket\PaketBootstrap.cs" />
     <Compile Include="Paket\PaketRestore.cs" />
     <Compile Include="PathUtil.cs" />
     <Compile Include="Regex\RegexCompiler.cs" />
@@ -266,6 +267,7 @@
     <Content Include="FtpUpload\SomeDevNotesOnFtpUpload.txt" />
     <Content Include="MSBuild.Community.Tasks.Targets">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="NUnitReport.xsl">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
