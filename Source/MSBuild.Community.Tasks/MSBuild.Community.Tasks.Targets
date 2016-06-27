@@ -150,6 +150,8 @@
 
   <UsingTask AssemblyFile="$(MSBuildCommunityTasksLib)" TaskName="MSBuild.Community.Tasks.InnoSetup" />
   <UsingTask AssemblyFile="$(MSBuildCommunityTasksLib)" TaskName="MSBuild.Community.Tasks.Checksum" />
+
+  <UsingTask AssemblyFile="$(MSBuildCommunityTasksLib)" TaskName="MSBuild.Community.Tasks.Paket.PaketRestore" />
   
   <ItemGroup>
     <FxCopRuleAssemblies Include="UsageRules.dll"/>

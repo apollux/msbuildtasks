@@ -134,6 +134,7 @@
     <Compile Include="NuGet\NuGetRestore.cs" />
     <Compile Include="NuGet\NuGetUpdate.cs" />
     <Compile Include="NUnit3.cs" />
+    <Compile Include="Paket\PaketRestore.cs" />
     <Compile Include="PathUtil.cs" />
     <Compile Include="Regex\RegexCompiler.cs" />
     <Compile Include="Sandcastle\BuildAssembler.cs">
