@@ -1039,9 +1039,9 @@ https://fsprojects.github.io/Paket/paket-restore.html
 Execute paket restore from build script. This assumes paket.exe to be found in .paket\paket.exe
 Set ToolPath to override this.
 
-  <Target Name="Restore>
-    <PaketRestore Verbose="True" TouchAffectedRefs="True" />
-  </Target>
+    <Target Name="Restore>
+      <PaketRestore Verbose="True" TouchAffectedRefs="True" />
+    </Target>
 
 
 
